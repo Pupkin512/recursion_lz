@@ -3,12 +3,14 @@
     import exchanges
     import perfection
  
-    if __name__ == '__main__':
+    def main():
         Euclid.main()  
         Pascal.main()
         exchanges.main()
         perfection.main() 
-        
+
+if __name__ == '__main__':
+    main()
 
 
 
